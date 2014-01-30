@@ -1,3 +1,5 @@
+package com.katkov;
+
 import java.util.Scanner;
 
 public class SpiralArray {
