@@ -1,0 +1,32 @@
+*.class
+
+# Package Files #
+# *.jar -- Comment out .jar as we have some jars committed and jars produced during builds end up in target anyway
+*.war
+*.ear
+*.log
+*.bin
+
+# Maven
+target/
+*/test-output/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/*
+!.idea/codeStyleSettings.xml
+lib/
+
+# log files
+*.log*
+#
+# temp files and directories
+tem*
+test-output/
+*.bin
+
+# Mac OS X
+.DS_Store
+
