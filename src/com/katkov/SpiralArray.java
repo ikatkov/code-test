@@ -17,7 +17,10 @@ public class SpiralArray {
     }
 
     private static void spiralArray(int[][] array, int counter, int minI) {
-        if (minI >= array.length / 2) { return; }
+        if (minI >= array.length / 2) {
+            if (array.length % 2 == 1) { array[array.length / 2][array.length / 2] = counter; }
+            return;
+        }
 
         //-> (right)
         int[] row = array[minI];
