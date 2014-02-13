@@ -7,8 +7,8 @@ public class SpiralArray {
     public static void main(String... args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Array size?:");
-        int dimenson = in.nextInt();
-        int array[][] = new int[dimenson][dimenson];
+        int dimension = in.nextInt();
+        int array[][] = new int[dimension][dimension];
 
 
         spiralArray(array, 0, 0);
