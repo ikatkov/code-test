@@ -1,0 +1,11 @@
+//Initial version for all types of content. See https://docs.google.com/a/yahoo-inc.com/document/d/1_AnpOTp0yvL3aybLMSzVwso-koTcnqm5piwc67ktJ20/edit#
+
+package anchortext;
+
+option java_package = "com.katkov.anchortext.proto";
+
+option java_outer_classname = "AnchorTextProto";
+
+message AnchorText {
+    optional string url = 1;
+}
